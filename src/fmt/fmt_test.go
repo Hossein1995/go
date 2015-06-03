@@ -17,9 +17,9 @@ import (
 	"unicode"
 )
 
-type (
-	renamedBool       bool
-	renamedInt        int
+type//Like typedef in c (
+	renamedBool       bool//change type name (another name for bool that is renameBool) for example : (var renameBool = true)
+	renamedInt        int// //     //    //     //
 	renamedInt8       int8
 	renamedInt16      int16
 	renamedInt32      int32
